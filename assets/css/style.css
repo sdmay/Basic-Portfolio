@@ -1,0 +1,217 @@
+html
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#container
+{	width:100%;
+    height: 100%;
+    background-image: url("C:/Users/Me/Basic-Portfolio/assets/images/cheap_diagonal_fabric.png") ;
+}
+
+#header{
+	height: 100px;
+	width: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.name {
+	background-color: #4aaaa5;
+	position: relative;
+	width: 130px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 20px;
+	margin-left: 170px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: white;
+	border-radius: 10px;
+	float: left;
+	font-weight: bolder;
+}
+
+.nav{
+	float: right;
+	list-style: inline;
+	margin-top: 50px;
+	margin-right: 320px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+.list{
+	float: right;
+	list-style: inline;
+	margin-right: 26px;
+	padding-right: 13px;
+	border-right: 2px solid;
+	border-color: #dddddd;
+}
+
+.list1{
+	float: right;
+	list-style: inline;
+	margin-right: 26px;
+	padding-right: 13px;
+	
+}
+
+
+
+.content {
+	width: 650px;
+	float: left;
+	margin-left: 170px;
+	margin-top: 80px;
+	background-color: #ffffff;
+	padding: 40px;
+	border-radius: 10px;
+	z-index: 1;
+	overflow: auto;
+	height: auto;
+}
+
+.about {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 10px;
+	float: left;
+	font-weight: bolder;
+	padding-bottom: 40px;
+	color: #4aaaa5;
+
+
+}
+
+.info{
+	clear: both;
+	border-top: 5px solid;
+	border-color: #dddddd;
+	padding-top: 40px;
+	overflow: auto;
+	height: auto;
+}
+
+.barrister{
+	width: 30%;
+	float: left;
+	height: auto;
+	overflow: auto;
+}
+.me{
+	width: 69%;
+	float:right;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: auto;
+	height: auto;
+			 }
+
+.sidebar{
+	width: 270px;
+	float: right;
+	margin-right: 350px;
+}
+
+.sidebar ul {
+	padding-top: 15px;
+	list-style: none;
+	text-align: center;
+}
+
+.sidebar li { display: inline-block;
+}
+
+.sidebar a { 
+	display: block;
+}
+
+.sidebar li a {;
+
+}
+
+.sidebar img {height: 50px;
+	width: 50px;
+	padding: 15px;
+}
+.work{
+	width: 255px;
+	height: 200px;
+	margin-top: 80px;
+	margin-right: 350px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	
+}
+
+.work h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 10px;
+	font-weight: bolder;
+	padding-bottom: 25px;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: 5px solid;
+	border-color: #dddddd;
+	color: #4aaaa5;
+}
+
+.contact {
+
+}
+
+.contact h2 {
+
+}
+
+.row {
+
+}
+
+.port img {height: 125px;
+	width: 125px;}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+	clear: both;
+}
+.foot {
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 50%;
+}
+
+#footer{
+	height:155px;
+	background-color: #666666;
+	border-top: 10px solid;
+	border-color: #4aaaa5;
+	}
