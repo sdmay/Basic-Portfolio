@@ -197,14 +197,48 @@ text-decoration:none;}
 
 }
 
-.port img {height: 125px;
-	width: 125px;}
+.port ul {
+	text-align: center;
+	padding-right: 30px;
+
+}
+
+.port li {  }
+
+.port img {height: 135px;
+	width: 135px;
+	border-radius: 10px;
+}
 
 .wrapper {
 	min-height: 100%;
 	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
 }
+.row label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777; 
+}
 
+.row input {
+	padding: 5px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+
+}
+
+textarea {
+		padding: 5px;
+	margin-bottom: 8px;
+	border-radius: 5px;
+}
+
+#submit_button {margin-top: 8px;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
 .push {
 	height: 155px; /* '.push' must be the same height as 'footer' */
 	clear: both;
