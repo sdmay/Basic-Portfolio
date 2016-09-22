@@ -212,14 +212,16 @@ body
 
 /*begin portfolio*/
 .port ul {
-	display: inline-block;
-	padding-right: 30px;
+	display: block;
+	float: left;
 	
 }
 
-/*Center portfolio picture*/
-.center {
-	text-align: center;
+.port li {
+	display: block;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	position: relative;
 }
 
 .port img {
@@ -229,15 +231,45 @@ body
 }
 
 .port2 ul {
-	
+	float: right;
 	padding-right: 30px;
 
+}
+
+.port2 li {
+	display: block;
+	margin-right: 60px;
+	position: relative;
+	padding-bottom: 50px;
 }
 
 .port2 img {
 	height: 200px;
 	width: 200px;
 	border-radius: 10px;
+}
+
+/*For the text box and words overlayed on the images*/
+.hangman {
+	position: absolute;
+	top: 135px;
+	text-align: center;
+	width:100%;
+	
+}
+
+.hangman h4 {
+	height: 55px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 55px;  
+
+
 }
 
 /*Begin Contact CSS*/
@@ -287,9 +319,9 @@ textarea {
 .foot {
 	text-align: center;
 	color: white;
-	position: absolute;
-	margin-top: 75px;
-	margin-left: 50%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 155px;  
 }
 
 #footer{
@@ -297,4 +329,5 @@ textarea {
 	background-color: #666666;
 	border-top: 10px solid;
 	border-color: #4aaaa5;
-	}
+}
+/*END*/
