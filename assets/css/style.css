@@ -140,8 +140,10 @@ body
 	float:left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 	height: auto;
 	overflow: auto;
+	border-radius: 10px;
 }
 
 /*info on about page*/
