@@ -1,3 +1,5 @@
+
+/*Begin Main HTML*/
 html
 {
     height: 100%;
@@ -12,13 +14,16 @@ body
     width: 100%;
     padding: 0;
     margin: 0;
+    background-image: url("C:/Users/Me/Basic-Portfolio/assets/images/cheap_diagonal_fabric.png") ;
 }
 
 #container
 {	width:100%;
     height: 100%;
-    background-image: url("C:/Users/Me/Basic-Portfolio/assets/images/cheap_diagonal_fabric.png") ;
+    
 }
+
+/*Top Title*/
 
 #header{
 	height: 100px;
@@ -74,16 +79,19 @@ body
 	
 }
 
-.nav a {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.nav a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-text-decoration:none;}
+	text-decoration:none;}
 
 .nav a:hover {
     background-color: #dcdcdc;
 }
 
+/*Main Body Elements*/
 .content {
 	width: 650px;
+	height: 500px;
 	float: left;
 	margin-left: 170px;
 	margin-top: 80px;
@@ -96,6 +104,12 @@ text-decoration:none;}
 	box-shadow: 10px 10px 5px #888888;
 }
 
+/*Worked to make box fill to proper dimensions on own*/
+.hope {
+	height:auto;
+}
+
+/*Header of main content section*/
 .about {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 25px;
@@ -108,7 +122,7 @@ text-decoration:none;}
 
 
 }
-
+/*Gimme some room*/
 .info{
 	clear: both;
 	border-top: 5px solid;
@@ -118,21 +132,22 @@ text-decoration:none;}
 	height: auto;
 }
 
+/*Pic on About me page*/
 .barrister{
-	width: 30%;
-	float: left;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	height: auto;
 	overflow: auto;
 }
+
+/*info on about page*/
 .me{
-	width: 69%;
-	float:right;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	overflow: auto;
-	height: auto;
-			 }
-
+	line-height: 210%;
+				 }
+/*Self-explanatory, but don't know if it works properly*/
 .sidebar{
 	width: 270px;
 	float: right;
@@ -145,7 +160,8 @@ text-decoration:none;}
 	text-align: center;
 }
 
-.sidebar li { display: inline-block;
+.sidebar li { 
+	display: inline-block;
 }
 
 .sidebar a { 
@@ -156,10 +172,13 @@ text-decoration:none;}
 
 }
 
-.sidebar img {height: 50px;
+.sidebar img {
+	height: 50px;
 	width: 50px;
 	padding: 15px;
 }
+
+
 .work{
 	width: 255px;
 	height: 200px;
@@ -186,51 +205,42 @@ text-decoration:none;}
 	color: #4aaaa5;
 }
 
-.contact {
+/*Adds space above sticky footer*/
+.clear {
+	clear: both;
+	padding-top: 30px;}
 
-}
-
-.contact h2 {
-
-}
-
-.row {
-
-}
-
+/*begin portfolio*/
 .port ul {
-display: inline-block;
+	display: inline-block;
 	padding-right: 30px;
 	
-
 }
-.center {text-align: center;}
 
-.port li {  }
+/*Center portfolio picture*/
+.center {
+	text-align: center;
+}
 
-.port img {height: 135px;
-	width: 135px;
+.port img {
+	height: 200px;
+	width: 200px;
 	border-radius: 10px;
 }
 
 .port2 ul {
 	
 	padding-right: 30px;
-	
 
 }
 
-.port2 li {  }
-
-.port2 img {height: 135px;
-	width: 135px;
+.port2 img {
+	height: 200px;
+	width: 200px;
 	border-radius: 10px;
 }
 
-.wrapper {
-	min-height: 100%;
-	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
-}
+/*Begin Contact CSS*/
 .row label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777; 
@@ -244,12 +254,13 @@ display: inline-block;
 }
 
 textarea {
-		padding: 5px;
+	padding: 5px;
 	margin-bottom: 8px;
 	border-radius: 5px;
 }
 
-#submit_button {margin-top: 8px;
+#submit_button {
+	margin-top: 8px;
 	padding: 20px;
 	border-radius: 10px;
 	width: 140px;
@@ -260,10 +271,19 @@ textarea {
 
 
 }
+
+/*Begin Sticky Footer CSS*/
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
 .push {
 	height: 155px; /* '.push' must be the same height as 'footer' */
 	clear: both;
 }
+
 .foot {
 	text-align: center;
 	color: white;
